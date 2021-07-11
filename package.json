@@ -1,0 +1,11 @@
+{
+  "name": "meater",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Tasty Treats solution by Enric Trillo",
+  "author": "Enric Trillo (github.com/enrict)",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
