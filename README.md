@@ -28,12 +28,20 @@ I will be implementing the following:
 
 (BASIC)
 
-- [ ] Use NodeJs for the server
-- [ ] Form that takes in the 4 mentioned variables
-- [ ] Form must save information to text file
+- [x] Use NodeJs for the server
+- [x] Form that takes in the 4 mentioned variables
+- [x] Form must save information to text file
 
 (ADVANCED)
 
-- [ ] Email address field must have regEx implemented
-- [ ] Extra page to display inquires in Desc order
-- [ ] reCaptcha to prevent spammy bots
+- [x] Email address field that has regEx validation
+- [x] Extra page to display inquires in Desc order
+- [x] reCaptcha to prevent spammy bots
+
+(TOOLS USED)
+
+- React
+- TailwindCSS
+- ReCaptcha
+- React Router DOM
+- Express
