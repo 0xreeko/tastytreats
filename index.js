@@ -1,13 +1,13 @@
-let express = require("express");
+const express = require("express");
 
 const server = express();
 
 server.set("port", 3000);
 
-server.listen(server.get("port"), () => {
-  console.log(`Server connected on ${server.get("port")}🍖`);
+server.get("/", (req, res) => {
+  res.send("tasty treats🍖");
 });
 
-server.get("/", (req, res) => {
-  res.send("tasy treats🍖");
+server.listen(server.get("port"), (res) => {
+  console.log(`Server connected on http://localhost:${server.get("port")} 🍖`);
 });
