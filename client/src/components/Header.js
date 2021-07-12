@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function Header() {
   return (
+    // renders header component
     <header className="header flex items-center justify-center">
       <div className="flex justify-around bg-red-400 w-full p-2.5">
         <Link to="/">

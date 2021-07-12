@@ -2,7 +2,8 @@ import React from "react";
 
 function InquiryCard({ name, email, message, subscription }) {
   return (
-    <div className="inquiry-card shadow-sm w-96 border-l-4 rounded-sm border-red-200 bg-white">
+    // renders card component
+    <div className="inquiry-card shadow-sm w-96 border-l-4 rounded-sm border-red-200 bg-white m-3">
       <div className="p-3 flex flex-col">
         <span className="text-xl font-extrabold">{name}</span>
         <span className="">Email: {email}</span>

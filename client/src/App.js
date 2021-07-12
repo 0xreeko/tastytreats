@@ -9,13 +9,11 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          {/* inquiry list */}
           <Route path="/inquiries">
             <Header />
             <Inquiry />
           </Route>
 
-          {/* contact page */}
           <Route path="/">
             <Header />
             <ContactForm />
